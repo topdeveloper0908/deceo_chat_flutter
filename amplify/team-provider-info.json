@@ -1,0 +1,66 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-doceonew-dev-222251-authRole",
+      "UnauthRoleArn": "arn:aws:iam::480663785201:role/amplify-doceonew-dev-222251-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::480663785201:role/amplify-doceonew-dev-222251-authRole",
+      "Region": "ap-northeast-1",
+      "DeploymentBucketName": "amplify-doceonew-dev-222251-deployment",
+      "UnauthRoleName": "amplify-doceonew-dev-222251-unauthRole",
+      "StackName": "amplify-doceonew-dev-222251",
+      "StackId": "arn:aws:cloudformation:ap-northeast-1:480663785201:stack/amplify-doceonew-dev-222251/2ed16590-a38b-11ed-a094-069d4242ba5b",
+      "AmplifyAppId": "d2x0j5uv0cj4k2"
+    },
+    "categories": {
+      "auth": {
+        "doceonew5920b304": {},
+        "doceonew9d5671b29d5671b2": {},
+        "userPoolGroups": {}
+      },
+      "function": {
+        "AdminQueriesb07fa963": {
+          "deploymentBucketName": "amplify-doceonew-dev-222251-deployment",
+          "s3Key": "amplify-builds/AdminQueriesb07fa963-5a544c6b42744e6c6166-build.zip"
+        },
+        "addUserToGroup": {
+          "deploymentBucketName": "amplify-doceonew-dev-222251-deployment",
+          "s3Key": "amplify-builds/addUserToGroup-75752b6933744c374e56-build.zip"
+        },
+        "createGetStreamToken": {
+          "deploymentBucketName": "amplify-doceonew-dev-222251-deployment",
+          "s3Key": "amplify-builds/createGetStreamToken-7138446776456e652b46-build.zip"
+        },
+        "extractCaption": {
+          "deploymentBucketName": "amplify-doceonew-dev-222251-deployment",
+          "s3Key": "amplify-builds/extractCaption-2f4f435a4676556f2b65-build.zip",
+          "streamKey": "a6rmt92za3p7",
+          "streamSecret": "jx9tp9jcc3f4b6j8732zynqf7byu4tfbjjah266hskgz7h8vnwngfrpzcg2mddwg"
+        },
+        "getRoomChannels": {
+          "deploymentBucketName": "amplify-doceonew-dev-222251-deployment",
+          "s3Key": "amplify-builds/getRoomChannels-6e7a584b4b4f6a75624e-build.zip"
+        },
+        "sendEmailNotification": {
+          "deploymentBucketName": "amplify-doceonew-dev-222251-deployment",
+          "s3Key": "amplify-builds/sendEmailNotification-41505373444d33505255-build.zip",
+          "streamKey": "a6rmt92za3p7",
+          "streamSecret": "jx9tp9jcc3f4b6j8732zynqf7byu4tfbjjah266hskgz7h8vnwngfrpzcg2mddwg"
+        }
+      },
+      "notifications": {
+        "Pinpoint": {
+          "Name": "doceonew-dev",
+          "Id": "a8a8b9f7b72746ffb34a7ae3bb08bf04",
+          "Region": "ap-northeast-1"
+        }
+      },
+      "analytics": {
+        "Pinpoint": {
+          "Name": "doceonew-dev",
+          "Id": "a8a8b9f7b72746ffb34a7ae3bb08bf04",
+          "Region": "ap-northeast-1"
+        }
+      }
+    }
+  }
+}
